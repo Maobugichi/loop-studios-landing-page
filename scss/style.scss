@@ -437,6 +437,7 @@ h3 {
     background: url(#{$imgpath}#{$img1});
  @include responsive(mobile) {
     background: url(#{$imgpath}#{$img1mobile});
+    background-size: cover;
   }
 }
 .earth,.night,.grid,.team,.above,.pocket,.curio,.fish {
@@ -479,7 +480,7 @@ h3 {
     background: url(#{$imgpath}#{$img3});
  @include responsive(mobile) {
     background: url(#{$imgpath}#{$img3mobile});
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }
@@ -515,7 +516,7 @@ h3 {
     background: url(#{$imgpath}#{$img7mobile});
  @include responsive(mobile) {
     background: url(#{$imgpath}#{$img7mobile});
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }
@@ -524,7 +525,7 @@ h3 {
     background: url(#{$imgpath}#{$img8});
  @include responsive(mobile) {
     background: url(#{$imgpath}#{$img8mobile});
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }
