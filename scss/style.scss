@@ -22,7 +22,7 @@ $img5: "/desktop/image-from-above.jpg";
 $img6: "/desktop/image-pocket-borealis.jpg";
 $img7: "/desktop/image-curiosity.jpg";
 $img8: "/desktop/image-fisheye.jpg";
-$mobile-hero-img:"s/mobile/image-hero.jpg";
+$mobile-hero-img:"/mobile/image-hero.jpg";
 $img1mobile: "/mobile/image-deep-earth.jpg";
 $img2mobile: "/mobile/image-night-arcade.jpg";
 $img3mobile:"/mobile/image-soccer-team.jpg";
@@ -188,7 +188,8 @@ main {
  width: 100%;
  height: 90vh;
  @include responsive(mobile) {
- background: $mobile-hero-img;
+    
+ background: url(#{$imgpath}#{$mobile-hero-img;});
  background-size: cover;
  background-repeat: no-repeat;
  height: 90vh;
