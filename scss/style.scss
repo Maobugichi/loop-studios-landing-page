@@ -420,6 +420,17 @@ h3 {
   }
 }
 
+.creations__all__flex__upper2 {
+    display: $display-flex;
+    height: 50%;
+    justify-content: space-between;
+    gap: 10px;
+    @include responsive(mobile) {
+       flex-direction: column;
+       width: 100%;
+     }
+}
+
 
 .earth {
     background: url(#{$imgpath}#{$img1});
@@ -436,10 +447,8 @@ h3 {
  font-size: 18px;
  position: $position_relative;
  @include responsive(mobile) {
-   position: static;
-   background-repeat: no-repeat;
    width: 100%;
-   background-position:center;
+  
   }
 }
 
@@ -460,7 +469,7 @@ h3 {
  background: url(#{$imgpath}#{$img2});
  @include responsive(mobile) {
     background: url(#{$imgpath}#{$img2mobile});
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }
@@ -478,7 +487,7 @@ h3 {
  background: url(#{$imgpath}#{$img4});
  @include responsive(mobile) {
     background: url(#{$imgpath}#{$img4mobile});
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }
@@ -487,7 +496,7 @@ h3 {
     background: url(#{$imgpath}#{$img5});
  @include responsive(mobile) {
     background: url(#{$imgpath}#{$img5mobile});
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }
@@ -496,7 +505,7 @@ h3 {
     background: url(#{$imgpath}#{$img6});
  @include responsive(mobile) {
     background: url(#{$imgpath}#{$img6mobile});
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }

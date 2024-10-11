@@ -2,14 +2,12 @@ document.addEventListener("DOMContentLoaded", function() {
    
     const menu = document.querySelector(".menu");
     const sideNav = document.querySelector(".side-nav");
-    console.log(menu)
     menu.addEventListener("click", function() {
      //sideNav.classList.remove("close")
       sideNav.classList.add("block");
     });
 
     const close = document.querySelector(".close-div")
-    console.log(close)
     close.addEventListener("click", () => {
         console.log("hello")
         sideNav.classList.add("close");
