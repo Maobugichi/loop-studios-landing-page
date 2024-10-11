@@ -188,8 +188,7 @@ main {
  width: 100%;
  height: 90vh;
  @include responsive(mobile) {
-    
- background: url(#{$imgpath}#{$mobile-hero-img;});
+ background: url(#{$imgpath}#{$mobile-hero-img});
  background-size: cover;
  background-repeat: no-repeat;
  height: 90vh;

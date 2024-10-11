@@ -24,6 +24,6 @@ document.addEventListener("DOMContentLoaded", function() {
   const year = d.getFullYear()
   date.innerText = year
 
-  console.log(date)
+  //console.log(date)
   
   
